@@ -6,9 +6,13 @@
 }
 
 html{
-	font-family: "Georgia";
-	
+	font-family:"Rubik", sans-serif;
 	background-color: #fffaf4
+}
+
+p{
+	font-family:sans-serif;
+	font-size:17px
 }
 
 h1,h2,h3{
@@ -99,6 +103,7 @@ a {
 }
 /*#dfd7d7*/
 #sidebar {
+	font-family:'Verdana';
 	position: fixed;
 	flex-grow:1;
 	flex-shrink:1;
