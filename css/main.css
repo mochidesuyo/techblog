@@ -285,6 +285,7 @@ a {
 }
 /* article */
 #article-title {
+	font-family:'Georgia';
 	border-bottom: 2px solid #ddd;
 }
 #article-content {
