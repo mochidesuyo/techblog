@@ -19,7 +19,7 @@
 
 	<!-- favicon -->
 	
-	<link rel="shortcut icon" href="/techblog/favicon.ico">
+	<link rel="shortcut icon" href="/favicon.ico">
 	
 
 
@@ -29,7 +29,7 @@
 		if(typeof searchEngine == "undefined" || searchEngine == null || searchEngine == ""){
 			searchEngine = "https://www.google.com/search?q=";
 		}
-		var homeHost = "wujun234.github.io";
+		var homeHost = "mochidesuyo.github.io/techblog/";
 		if(typeof homeHost == "undefined" || homeHost == null || homeHost == ""){
 			homeHost = window.location.host;
 		}
@@ -37,7 +37,7 @@
 
 
 	
-<link rel="stylesheet" href="/techblog/css/main.css">
+<link rel="stylesheet" href="/css/main.css">
 
 	
 <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -62,7 +62,7 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
 
 	
-<script src="/techblog/js/main.js"></script>
+<script src="/js/main.js"></script>
 
 	
 		
@@ -89,21 +89,29 @@ var _hmt = _hmt || [];
 </script>
 
 <header id="header">
-    <a id="title" href="/techblog/" class="logo">MochiのTechNotes</a>
+    <a id="title" href="/" class="logo">MochiのTechNotes</a>
 
 	<ul id="menu">
 		<li class="menu-item">
 			<a href="/about" class="menu-item-link">ABOUT</a>
 		</li>
 	
-
+		<li class="menu-item">
+			<a href="/tags" class="menu-item-link">Tag</a>
+		</li>
 	
 
+	
 		<li class="menu-item">
+			<a href="/categories" class="menu-item-link">Categories</a>
+		</li>
+	
+
+		<!-- <li class="menu-item">
 			<a href="/contact" class="menu-item-link" target="_blank">
 				CONTACT
 			</a>
-		</li>
+		</li> -->
 		<li class="menu-item">
 			<a href="https://github.com/mochidesuyo" class="menu-item-link" target="_blank">
 				<i class="fa fa-github fa-2x"></i>
@@ -138,7 +146,7 @@ var _hmt = _hmt || [];
 									
 							<ul>
 								<li class="file">
-									<a href="/techblog/2021/07/05/DevOps/Apache%20Airflow/Airflow%20Crash%20Course/">
+									<a href="/2021/07/05/DevOps/Apache%20Airflow/Airflow%20Crash%20Course/">
 										Airflow Crash Course
 									</a>
 								</li>
@@ -162,8 +170,8 @@ var _hmt = _hmt || [];
 									
 							<ul>
 								<li class="file active">
-									<a href="/techblog/2021/06/26/TestDirectoryTree/My-first-article-and/">
-										My-first-article-and
+									<a href="/2021/06/26/TestDirectoryTree/My%20First%20Blog/">
+										My First Blog
 									</a>
 								</li>
 								<div class="article-toc" style="display: none;"></div>
@@ -175,7 +183,7 @@ var _hmt = _hmt || [];
 			
 							<ul>
 								<li class="file">
-									<a href="/techblog/2021/06/25/hello-world/">
+									<a href="/2021/06/25/hello-world/">
 										hello-world
 									</a>
 								</li>
@@ -190,7 +198,7 @@ var _hmt = _hmt || [];
 	<div id="content">
 		<h1 id="article-title">
 
-	My-first-article-and
+	My First Blog
 </h1>
 <div class="article-meta">
 	
@@ -205,6 +213,14 @@ var _hmt = _hmt || [];
     
 		<span>Tags：</span>
             
+                
+                    <span>
+                        <i class="fa fa-tag" aria-hidden="true">
+                        <a href="/tags/test/">test</a>
+                        </i>
+                    </span>
+                
+            
     
 		</div>
 
@@ -214,10 +230,11 @@ var _hmt = _hmt || [];
 	<p>This is the first article for testing.</p>
 <p>Change for test purpose</p>
 <p>Envision this: there is a technology currently undergoing testing that, when released to the public, will become a long-awaited revolution in energy. This new technology promises to be safer and more efficient than anything we have on the market now. It will affect that which we consider mundane — power tools, toys, laptops, smartphones — and that which we consider exceptional — medical devices, spacecraft, and the innovative new vehicle designs needed to wean us off of fossil fuels. We have known about this technology for centuries, yet until now we have only been able to take small steps towards its creation. Billions of dollars are pouring into research and billions more will be made once the technology has been perfected and released.<br>This description may sound a lot like that of fusion power. Yet it’s actually referring to the upcoming innovations in the realm of battery technology — specifically that of solid-state batteries. And while both fusion power and solid-state batteries have been labeled technologies of the future but never of today, advancements and investments in solid-state materials have increased tremendously over the years. Today not only are there many major companies and credible researchers involved, it seems we may finally start seeing these batteries released in just the next few years.<br>What can we expect once this elusive, transformative technology is finally ready for mass production?</p>
-<h1 id="First-Table"><a href="#First-Table" class="headerlink" title="First Table"></a>First Table</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">This is a test code block 1</span><br><span class="line">The second line </span><br></pre></td></tr></table></figure>
-<h2 id="Second-Table"><a href="#Second-Table" class="headerlink" title="Second Table"></a>Second Table</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">This is a test code block 2</span><br><span class="line">Test bullet point</span><br></pre></td></tr></table></figure>
+<h1 id="Header-1"><a href="#Header-1" class="headerlink" title="Header 1"></a>Header 1</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">This is a test code block 1<br>The second line <br></code></pre></td></tr></table></figure>
+<h2 id="Header-2"><a href="#Header-2" class="headerlink" title="Header 2"></a>Header 2</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">This is a test code block 2<br>Test bullet point<br></code></pre></td></tr></table></figure>
 
-<h3 id="Third-Table"><a href="#Third-Table" class="headerlink" title="Third Table"></a>Third Table</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">This is a test code block 3</span><br><span class="line">This is the second</span><br><span class="line">This is the third</span><br></pre></td></tr></table></figure>
+<h3 id="Header-3-Test-highlight"><a href="#Header-3-Test-highlight" class="headerlink" title="Header 3 Test highlight"></a>Header 3 Test highlight</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">var</span> foo = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">bar</span>) </span>&#123;<br>  <span class="hljs-keyword">return</span> bar++;<br>&#125;;<br><br><span class="hljs-built_in">console</span>.log(foo(<span class="hljs-number">5</span>));<br><br>This is a test code block <span class="hljs-number">3</span><br>This is the second<br>This is the third<br></code></pre></td></tr></table></figure>
+
 
 <h1 id="This-is-a-blockquote"><a href="#This-is-a-blockquote" class="headerlink" title="This is a blockquote"></a>This is a blockquote</h1><p>This is a block quote</p>
 <blockquote>
@@ -246,7 +263,7 @@ var _hmt = _hmt || [];
     <div class="post-guide">
         <div class="item left">
             
-              <a href="/techblog/2021/07/05/DevOps/Apache%20Airflow/Airflow%20Crash%20Course/">
+              <a href="/2021/07/05/DevOps/Apache%20Airflow/Airflow%20Crash%20Course/">
                   <i class="fa fa-angle-left" aria-hidden="true"></i>
                   Apache Airflow
               </a>
@@ -254,7 +271,7 @@ var _hmt = _hmt || [];
         </div>
         <div class="item right">
             
-              <a href="/techblog/2021/06/25/hello-world/">
+              <a href="/2021/06/25/hello-world/">
                 
                 <i class="fa fa-angle-right" aria-hidden="true"></i>
               </a>
@@ -278,7 +295,7 @@ var _hmt = _hmt || [];
 			path: window.location.pathname,
 			appId: '',
 			appKey: '',
-			placeholder: '请输入评论',
+			placeholder: 'Please enter comments',
 			avatar: 'retro',
 			recordIP: false
 		})
@@ -288,7 +305,7 @@ var _hmt = _hmt || [];
 	</div>
 	<div id="footer">
 	<p>
-	©2019-<span id="footerYear"></span> 
+	©2021-<span id="footerYear"></span> 
 	<a href="/">Mochi</a> 
 	
 	<!-- 
