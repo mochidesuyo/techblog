@@ -103,7 +103,7 @@ a {
 }
 /*#dfd7d7*/
 #sidebar {
-	font-family:'Rubik';
+	font-family:'Courier New';
 	position: fixed;
 	flex-grow:1;
 	flex-shrink:1;
