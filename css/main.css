@@ -55,6 +55,7 @@ a {
 
 /*7a7281*/
 #title {
+	font-family:'Georgia';
 	font-size: 20px;
 	color: #6e88a3;
 	padding: 10px 15px;
@@ -251,6 +252,7 @@ a {
 }
 
 .index-title {
+	font-family:'Georgia';
 	margin-top: 30px;
 	position: relative;
 	font-size: 24px;
@@ -285,7 +287,7 @@ a {
 }
 /* article */
 #article-title {
-	font-family:'Georgia';
+	
 	border-bottom: 2px solid #ddd;
 }
 #article-content {
